@@ -1,7 +1,7 @@
 ---
 title: Membandingkan Konsep Notasi Big O, Theta, dan Omega dengan Metafora Rute Perjalanan
 date: 2021/3/18
-description: Mari melihat konsep notasi big o, theta, dan omega dengan metafora rute perjalanan.
+description: Apa yang membedakan konsep notasi big O, theta, dan omega?
 tag: computer science
 author: Agam Dimaestra
 ---
