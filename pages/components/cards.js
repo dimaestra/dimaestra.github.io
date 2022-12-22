@@ -1,6 +1,6 @@
 import { Card, Grid, Text, Link } from "@nextui-org/react";
 
-export default function Card() {
+export default function Cards() {
   return (
     <Card css={{ p: "$6", mw: "400px", background: "$background" }}>
       <Card.Header>
