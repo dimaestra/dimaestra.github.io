@@ -10,7 +10,7 @@ import Image from 'next/image'
 # Membandingkan Konsep Notasi Big O, Theta, dan Omega dengan Metafora Rute Perjalanan
 
 <Image
-  src="/images/photo.jpg"
+  src="/public/images/photo.jpg"
   alt="Photo"
   width={1125}
   height={750}
