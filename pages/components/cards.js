@@ -2,7 +2,7 @@ import { Card, Grid, Text, Link } from "@nextui-org/react";
 
 export default function Cards() {
   return (
-    <Card css={{ p: "$6", mw: "400px", background: "#121212" }}>
+    <Card css={{ p: "$6", mw: "400px"}}>
       <Card.Header>
         <img
         alt="visio logo"
@@ -12,7 +12,7 @@ export default function Cards() {
         />
         <Grid.Container css={{ pl: "$6" }}>
         <Grid xs={12}>
-          <Text h4 css={{ color: "#FFFFFF", lineHeight: "$xs" }}>
+          <Text h4 css={{ color: "#121212", lineHeight: "$xs" }}>
             Visio
           </Text>
         </Grid>
@@ -22,7 +22,7 @@ export default function Cards() {
         </Grid.Container>
       </Card.Header>
       <Card.Body css={{ py: "$2" }}>
-        <Text css={{color: "#FFFFFF"}}>
+        <Text css={{color: "#121212"}}>
           Visio helps the visually-impaired detect and locate objects, read books and documents with ease.
         </Text>
       </Card.Body>

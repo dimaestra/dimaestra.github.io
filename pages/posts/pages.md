@@ -1,12 +1,23 @@
 ---
-title: Memahami Notasi Big O, Theta, dan Omega
+title: Membandingkan Konsep Notasi Big O, Theta, dan Omega dengan Metafora Rute Perjalanan
 date: 2021/3/18
-description: Apa yang membedakan notasi Big O, Theta, dengan Omega?
+description: Mari melihat konsep notasi big o, theta, dan omega dengan metafora rute perjalanan.
 tag: computer science
 author: Agam Dimaestra
 ---
+import Image from 'next/image'
 
 # Membandingkan Konsep Notasi Big O, Theta, dan Omega dengan Metafora Rute Perjalanan
+
+<Image
+  src="/images/photo.jpg"
+  alt="Photo"
+  width={1125}
+  height={750}
+  priority
+  className="next-image"
+/>
+[Unsplash ↗ ](https://unsplash.com/photos/ndN00KmbJ1c)
 
 Pernahkan Anda berpikir untuk merencanakan jalan-jalan melintasi negara? Mungkin Anda ingin memilih rute terbaik untuk sampai ke tujuan Anda secepat dan efisien mungkin. Untuk melakukan ini, Anda membuka peta yang menunjukkan berbagai pilihan rute untuk pergi dari titik A ke titik B. Setiap rute ditandai dengan warna yang berbeda, dan setiap warna mewakili tingkat kompleksitas yang berbeda.
 
