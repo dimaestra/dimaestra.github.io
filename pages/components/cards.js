@@ -2,7 +2,7 @@ import { Card, Grid, Text, Link } from "@nextui-org/react";
 
 export default function Cards() {
   return (
-    <Card css={{ p: "$6", mw: "400px", background: "$background" }}>
+    <Card css={{ p: "$6", mw: "400px", background: "#121212" }}>
       <Card.Header>
         <img
         alt="visio logo"
