@@ -4,24 +4,15 @@
         <description><![CDATA[Your Name]]></description>
         <link>https://yoursite.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 22 Dec 2022 15:01:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Dec 2022 15:23:28 GMT</lastBuildDate>
         <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Markdown Examples]]></title>
-            <description><![CDATA[View examples of all possible Markdown options.]]></description>
-            <link>/posts/markdown</link>
-            <guid isPermaLink="true">/posts/markdown</guid>
-            <category><![CDATA[web development]]></category>
-            <dc:creator><![CDATA[You]]></dc:creator>
-            <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Next.js Pages]]></title>
-            <description><![CDATA[Learn more about Next.js pages.]]></description>
+            <title><![CDATA[Memahami Notasi Big O, Theta, dan Omega]]></title>
+            <description><![CDATA[Apa yang membedakan notasi Big O, Theta, dengan Omega?]]></description>
             <link>/posts/pages</link>
             <guid isPermaLink="true">/posts/pages</guid>
-            <category><![CDATA[web development]]></category>
-            <dc:creator><![CDATA[You]]></dc:creator>
+            <category><![CDATA[computer science]]></category>
+            <dc:creator><![CDATA[Agam Dimaestra]]></dc:creator>
             <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
         </item>
     </channel>
