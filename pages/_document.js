@@ -1,31 +1,37 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-
-export default function Document() {
-  const meta = {
-    title: 'Agam Dimaestra - Freelance Back-end Engineer',
-    description: 'Hi, I\'m Agam. I\'m a Freelance Back-end Engineer. I enjoy working with Express.js, but I\'m always open to new possibilities of solving problems. In this blog/portfolio site, you can expect to find various writings and projects I made. Feel free to contact me for business inquiries at: agamdimaestra@gmail.com.',
-    image: './images/favicon.ico'
-  }
-
-  return (
-    <Html lang="en">
-      <Head>
-        <meta name="robots" content="follow, index" />
-        <meta name="description" content={meta.description} />
-        <meta property="og:site_name" content={meta.title} />
-        <meta property="og:description" content={meta.description} />
-        <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourname" />
-        <meta name="twitter:title" content={meta.title} />
-        <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />
-      </Head>
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  )
-}
+<Container lg gap={2} css={{ mt: '$10' }}>
+  <Card css={{ p: "$6", mw: "400px" }}>
+    <Card.Header>
+      <img
+        alt="visio logo"
+        src="https://raw.githubusercontent.com/dimaestra/visio/main/android-icon-36x36.png"
+        width="36px"
+        height="36px"
+      />
+      <Grid.Container css={{ pl: "$6" }}>
+        <Grid xs={12}>
+          <Text h4 css={{ color: "#121212", lineHeight: "$xs" }}>
+            Visio
+          </Text>
+        </Grid>
+        <Grid xs={12}>
+          <Text css={{ color: "$accents8" }}>visio.vercel.app</Text>
+        </Grid>
+      </Grid.Container>
+    </Card.Header>
+    <Card.Body css={{ py: "$2" }}>
+      <Text css={{ color: "#121212" }}>
+        Visio helps the visually-impaired detect and locate objects, read books and documents with ease.
+      </Text>
+    </Card.Body>
+    <Card.Footer>
+      <Link
+        icon
+        color="primary"
+        target="_blank"
+        href="https://github.com/dimaestra/visio"
+      >
+        Visit source code on GitHub.
+      </Link>
+    </Card.Footer>
+  </Card>
+</Container>
