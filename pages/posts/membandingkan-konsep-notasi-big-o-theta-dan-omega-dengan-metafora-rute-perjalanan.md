@@ -19,7 +19,7 @@ import Image from 'next/image'
 />
 [Unsplash ↗ ](https://unsplash.com/photos/ndN00KmbJ1c)
 
-Pernahkan Anda berpikir untuk merencanakan jalan-jalan melintasi negara? Mungkin Anda ingin memilih rute terbaik untuk sampai ke tujuan Anda secepat dan efisien mungkin. Untuk melakukan ini, Anda membuka peta yang menunjukkan berbagai pilihan rute untuk pergi dari titik A ke titik B. Setiap rute ditandai dengan warna yang berbeda, dan setiap warna mewakili tingkat kompleksitas yang berbeda.
+Pernahkan Anda berpikir untuk merencanakan perjalanan melintasi negara? Mungkin Anda ingin memilih rute terbaik untuk sampai ke tujuan Anda secepat dan efisien mungkin. Untuk melakukan ini, Anda membuka peta yang menunjukkan berbagai pilihan rute untuk pergi dari titik A ke titik B. Setiap rute ditandai dengan warna yang berbeda, dan setiap warna mewakili tingkat kompleksitas yang berbeda.
 
 Rute merah adalah yang paling kompleks, melalui pegunungan dan lembah dan mengambil waktu terlama untuk ditempuh. Rute ini memiliki pemandangan yang indah, tetapi mungkin menjadi worst-case scenario jika Anda mencoba untuk sampai ke suatu tempat dengan cepat.
 
